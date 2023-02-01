@@ -38,18 +38,12 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Введите числа");
+Console.WriteLine("Введите число");
 int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
-    if 
-    (a > b && a > c)
-    Console.WriteLine(a);
-    else if 
-    (b > c)
-    Console.WriteLine(b);
-    else
-    Console.WriteLine(c);
+if
+(a % 2 == 0) Console.WriteLine("Четное");
+else
+    Console.WriteLine("Нечетное");
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4

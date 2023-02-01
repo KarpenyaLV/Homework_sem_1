@@ -20,6 +20,24 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+// Console.WriteLine("Введите числа");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int b = Convert.ToInt32(Console.ReadLine());
+// int c = Convert.ToInt32(Console.ReadLine());
+//     if 
+//     (a > b && a > c)
+//     Console.WriteLine(a);
+//     else if 
+//     (b > c)
+//     Console.WriteLine(b);
+//     else
+//     Console.WriteLine(c);
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдает, является ли число четным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
 Console.WriteLine("Введите числа");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
@@ -32,11 +50,6 @@ int c = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine(b);
     else
     Console.WriteLine(c);
-
-// Задача 6: Напишите программу, которая на вход принимает число и выдает, является ли число четным (делится ли оно на два без остатка).
-// 4 -> да
-// -3 -> нет
-// 7 -> нет
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4
